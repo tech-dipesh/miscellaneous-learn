@@ -2,8 +2,9 @@
 #include <vector>
 using namespace std;
 int main(){
-    int value;
-    cin>>value;
-    cout<<value;
+    float n1, n2;
+    cin>>n1>>n2;
+    float sum=n1+n2;
+    cout<<sum;
     return 0;
 }
